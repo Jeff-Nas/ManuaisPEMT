@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Manuais Técnicos</title>
+
+</head>
+<body class="main">
+    <header class="cabecalho">
+
+        <div class="container_menu">
+            <input type="checkbox" id="menuToggle" class="container-botao">
+            <label for="menuToggle" class="menu-icon">
+                <img src="assets/icone-menu-hamburger.svg" alt="Ícone menu" class="cabecalho-imagem">
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Tabela de Torque</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Diagramas Elétricos</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Treinamentos</a></li>
+            </ul>
+        </div>
+        <img class="cabecalho-icone" id="icon" src="assets/icon-jlg.png" alt="ícone do fabricante selecionado">
+    
+        <a href="#">
+            <img src="assets/icone-home-preenchido.svg" alt="Ícone de casa- página inicial" class="cabecalho-imagem">
+        </a>
+    </header>
+    <!--<a target="_blank" href="https://icons8.com/icon/U5JRqX4RSgfj/home">Casa</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>-->
+
+
+        <div class="titulos">
+            <h1>Manuais Técnicos</h1>
+            <h2>Fabricantes</h2>
+        </div>
+
+    <section class="main">
+        
+        <ul class="fabricante">
+
+            <li class="fabricante__botao activ">Jlg</li>
+            <li class="fabricante__botao">Genie</li>
+            <li class="fabricante__botao">SkyJack</li>
+            <li class="fabricante__botao">Haulotte</li>
+            <li class="fabricante__botao">Dingli</li>
+        </ul>
+
+        <div class="container-card">
+                <figure class="card-modelo">
+                    <legend class="modelo-titulo">Tesoura Elétrica</legend>
+                    <a href="paginas/tesoura-eletrica.html" class="modelo-link">
+                        <img class="modelo-imagem" src="assets/Scissor-lift-mini2.png" alt="Tesoura elétrica jlg">
+                    </a>
+                </figure >
+
+                <figure class="card-modelo">
+                    <legend class="modelo-titulo">Tesoura Díesel</legend>
+                    <a href="#" class="modelo-link">
+                        <img class="modelo-imagem" src="assets/scissor-lift.png" alt="Tesoura diesel">
+                    </a>
+                </figure>
+
+                <figure class="card-modelo">
+                    <legend class="modelo-titulo">Boom Elétrico</legend>
+                    <a href="#" class="modelo-link">
+                        <img class="modelo-imagem" src="assets/boo-lift.png" alt="Boom Elétrico">
+                    </a>
+                </figure>
+
+                <figure class="card-modelo">
+                    <legend class="modelo-titulo">Boom Díesel</legend>
+                    <a href="#" class="modelo-link">
+
+                        <img class="modelo-imagem" src="assets/boo-lift.png" alt="Boom Díesel">
+                    </a>
+                </figure>
+
+                <figure class="card-modelo">
+                    <legend class="modelo-titulo">Big Boom</legend>
+                    <a href="#" class="modelo-link">
+                        <img class="modelo-imagem" src="assets/big-boom.png" alt="Big boom">
+                    </a>
+                </figure>
+                
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
