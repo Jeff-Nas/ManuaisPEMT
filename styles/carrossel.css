@@ -1,6 +1,7 @@
 .card-list {
     display: flex;
     flex-direction: row;
+    overflow: auto;
 }
 
 .card-item {
