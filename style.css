@@ -3,6 +3,9 @@
 @import url("styles/cardEquipamento.css");
 @import url("styles/carrossel.css");
 
+/* Fonte montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 *{
     padding: 0;
@@ -16,7 +19,6 @@
     --vermelho:       #ff3632;
     --amarelo:        #f9ae00;
     --laranja-dingli: #fc6621;
-;
     --laranja-claro: #eaa785;
     --fundo-laranja: #fbb277;
     --fundo-cinza: #f6f6f6;
