@@ -1,11 +1,15 @@
 
 //DESTINADO AO SWIPPER
 const swiper = new Swiper('.slider-wrapper', {
-    loop: true,
+    loop: false,
+    grabCursor: true,
+    spaceBetween: 5,
   
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
+      dynamicBullets: true,
     },
   
     // Navigation arrows
@@ -15,6 +19,7 @@ const swiper = new Swiper('.slider-wrapper', {
     },
 
     slidesPerView: 3,
+    //responsividade a definir: ver documentação https://swiperjs.com/swiper-api#initialize-swiper
     breakpoints: {
 
     }
