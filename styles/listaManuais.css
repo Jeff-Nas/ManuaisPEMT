@@ -1,0 +1,6 @@
+.manuais-container{
+    background-color: var(--branco);
+    border: 1px solid orange;
+    padding: 1em;
+    margin: 1em;
+}
