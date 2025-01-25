@@ -1,6 +1,23 @@
 .manuais-container{
-    background-color: var(--branco);
-    border: 1px solid orange;
     padding: 1em;
     margin: 1em;
 }
+
+.manuais-lista{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.manuais-item {
+    background-color: var(--branco);
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(15, 15, 15, 0.463);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
