@@ -7,7 +7,7 @@ const listaBotoes = document.querySelectorAll('.fabricante__botao')
 const icon = document.getElementById('icon')
 const listaCards = document.querySelectorAll('.card-modelo')
 
-//ocultação do menu hamburger ao clique
+//ocultação do menu hamburger ao clique na página
 document.addEventListener('click', (event) => {
 
     if (!menu.contains(event.target) && !listaMenu.contains(event.target)) {
