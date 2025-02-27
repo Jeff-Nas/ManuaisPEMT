@@ -1,97 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--LIKING SWIPPER JS CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--LIKING SWIPPER JS CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
     <title>Tesoura Elétrica JLG</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="cabecalho">
+      <div class="container_menu">
+        <input type="checkbox" id="menuToggle" class="container-botao" />
+        <label for="menuToggle" class="menu-icon">
+          <img
+            src="/assets/icone-menu-hamburger.svg"
+            alt="Ícone menu"
+            class="cabecalho-imagem"
+          />
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Tabela de Torque</a>
+          </li>
+          <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Diagramas Elétricos</a>
+          </li>
+          <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Treinamentos</a>
+          </li>
+        </ul>
+      </div>
+      <img
+        class="cabecalho-icone"
+        id="icon"
+        src="/assets/icon-jlg.png"
+        alt="ícone do fabricante selecionado"
+      />
 
-        <div class="container_menu">
-            <input type="checkbox" id="menuToggle" class="container-botao">
-            <label for="menuToggle" class="menu-icon">
-                <img src="/assets/icone-menu-hamburger.svg" alt="Ícone menu" class="cabecalho-imagem">
-            </label>
-            <ul class="lista-menu">
-                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Tabela de Torque</a></li>
-                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Diagramas Elétricos</a></li>
-                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Treinamentos</a></li>
-            </ul>
-        </div>
-        <img class="cabecalho-icone" id="icon" src="/assets/icon-jlg.png" alt="ícone do fabricante selecionado">
-    
-        <a href="/index.html">
-            <img src="/assets/icone-home-preenchido.svg" alt="Ícone de casa- página inicial" class="cabecalho-imagem">
-        </a>
+      <a href="/index.html">
+        <img
+          src="/assets/icone-home-preenchido.svg"
+          alt="Ícone de casa- página inicial"
+          class="cabecalho-imagem"
+        />
+      </a>
     </header>
 
     <div class="titulos">
-        <h1>Tesoura Elétrica</h1>
+      <h1>Tesoura Elétrica</h1>
     </div>
 
-<!--S L I D E R-->
+    <!--S L I D E R-->
 
-   <div class="container swiper">
-        <div class="slider-wrapper">
-            <div class="card-list swiper-wrapper">
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/6RS.png" alt="Modelo 6RS" class="card-image">
-                    <legend class="card-name">6RS</legend>
-                </figure>
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/10RS.png" alt="Modelo 10RS" class="card-image">
-                    <legend class="card-name">10RS</legend>
-                </figure>
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/1930ES.png" alt="Modelo 1930ES" class="card-image">
-                    <legend class="card-name">1930ES</legend>
-                </figure>
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/2030ES.png" alt="Modelo 2030ES" class="card-image">
-                    <legend class="card-name">2030ES</legend>
-                </figure>
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/2630ES.png" alt="Modelo 2630ES" class="card-image">
-                    <legend class="card-name">2630ES</legend>
-                </figure>
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/2646ES.jpg" alt="Modelo 2646ES" class="card-image">
-                    <legend class="card-name">2646ES</legend>
-                </figure>
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/3246ES.webp" alt="Modelo 3246ES" class="card-image">
-                    <legend class="card-name">3246ES</legend>
-                </figure>
-                <figure class="card-item swiper-slide">
-                    <img src="/assets/tesoura-eletrica-jlg/M4069LE.png" alt="Modelo M4069LE" class="card-image">
-                    <legend class="card-name">M4069LE</legend>
-                </figure>
-                
-            </div>
-
-            <div class="swiper-pagination"></div>
-            <!-- <div class="swiper-button-prev"></div> 
-            <div class="swiper-button-next"></div>-->
+    <div class="container swiper">
+      <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper">
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/6RS.png"
+              alt="Modelo 6RS"
+              class="card-image"
+              data-key="6RS"
+            />
+            <legend class="card-name">6RS</legend>
+          </figure>
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/10RS.png"
+              alt="Modelo 10RS"
+              class="card-image"
+              data-key="10RS"
+            />
+            <legend class="card-name">10RS</legend>
+          </figure>
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/1930ES.png"
+              alt="Modelo 1930ES"
+              class="card-image"
+              data-key="1930ES"
+            />
+            <legend class="card-name">1930ES</legend>
+          </figure>
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/2030ES.png"
+              alt="Modelo 2030ES"
+              class="card-image"
+              data-key="2030ES"
+            />
+            <legend class="card-name">2030ES</legend>
+          </figure>
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/2630ES.png"
+              alt="Modelo 2630ES"
+              class="card-image"
+              data-key="2630ES"
+            />
+            <legend class="card-name">2630ES</legend>
+          </figure>
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/2646ES.jpg"
+              alt="Modelo 2646ES"
+              class="card-image"
+              data-key="2646ES"
+            />
+            <legend class="card-name">2646ES</legend>
+          </figure>
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/3246ES.webp"
+              alt="Modelo 3246ES"
+              class="card-image"
+              data-key="3246ES"
+            />
+            <legend class="card-name">3246ES</legend>
+          </figure>
+          <figure class="card-item swiper-slide">
+            <img
+              src="/assets/tesoura-eletrica-jlg/M4069LE.png"
+              alt="Modelo M4069LE"
+              class="card-image"
+              data-key="M4069LE"
+            />
+            <legend class="card-name">M4069LE</legend>
+          </figure>
         </div>
 
+        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-button-prev"></div> 
+            <div class="swiper-button-next"></div>-->
+      </div>
     </div>
-    
+
     <!--LISTA DE MANUAIS-->
 
     <div class="manuais-container" id="manu-container">
-        <ul class="manuais-lista">
-            <li class="manuais-item"><a class="manuais-link" href="/manuais/jlg/tesoura-eletrica/6RS-10RS/3123331-Serviços.pdf"><strong>6RS-10RS</strong> - serviço</a></li>
-            <li class="manuais-item"><a class="manuais-link" href="/manuais/jlg/tesoura-eletrica/6RS-10RS/6RS-10RS-operações.pdf"><strong>6RS-10RS</strong> - Operações 1932RS-6RS-3246RS-10RS_JLG</a></li>
-            <li class="manuais-item"><a class="manuais-link" href="/manuais/jlg/tesoura-eletrica/6RS-10RS/6RS-10RS-peças.pdf"><strong>6RS-10RS</strong> - Peças - 6RS-10RS-1932RS-3248RS_JLG</a></li>
-        </ul>
+      <ul class="manuais-lista">
+        <li class="manuais-item">
+          <a
+            class="manuais-link"
+            href="/manuais/jlg/tesoura-eletrica/6RS-10RS/3123331-Serviços.pdf"
+            ><strong>6RS-10RS</strong> - serviço</a
+          >
+        </li>
+        <li class="manuais-item">
+          <a
+            class="manuais-link"
+            href="/manuais/jlg/tesoura-eletrica/6RS-10RS/6RS-10RS-operações.pdf"
+            ><strong>6RS-10RS</strong> - Operações 1932RS-6RS-3246RS-10RS_JLG</a
+          >
+        </li>
+        <li class="manuais-item">
+          <a
+            class="manuais-link"
+            href="/manuais/jlg/tesoura-eletrica/6RS-10RS/6RS-10RS-peças.pdf"
+            ><strong>6RS-10RS</strong> - Peças - 6RS-10RS-1932RS-3248RS_JLG</a
+          >
+        </li>
+      </ul>
     </div>
-   <!--LINK SWIPPER JS SCRIPT-->
-   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   <script src="/scripts/swiper.js"></script>
-</body>
-
+    <!--LINK SWIPPER JS SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/scripts/swiper.js"></script>
+  </body>
 </html>
