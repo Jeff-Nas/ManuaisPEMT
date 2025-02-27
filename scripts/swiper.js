@@ -1,7 +1,7 @@
 
 //DESTINADO AO SWIPPER
 const swiper = new Swiper('.slider-wrapper', {
-    loop: false,
+    loop: true,
     grabCursor: true,
     spaceBetween: 5,
   
