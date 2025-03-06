@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,200;1,9..40,200&display=swap');
+
+:root {
+    color-scheme: light dark;
+    background-color: black;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.cabecalho {
+    background-color: white;
+}
+
+.logo {
+    height: 6em;
+}
+
+.banner {
+    background-color: #efb5a0;
+    margin: 5px;
+    border-radius: 1em;
+}
+
+.banner img {
+    height: 22em;
+    width: auto;
+    border-radius: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: rgba(24, 23, 23, 0.556);
+    }
+
+    .cabecalho {
+        background-color: #333;
+    }
+
+    .banner {
+        background-color: rgba(24, 23, 23, 0.556);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        background-color: white;
+    }
+
+    .cabecalho {
+        background-color: white;
+    }
+
+    .banner {
+        background-color: #efb5a0;
+    }
+}
