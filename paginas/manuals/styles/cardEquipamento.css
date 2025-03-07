@@ -50,7 +50,7 @@
     width: 80%;
     border-bottom: 4px groove var(--laranja);
     opacity: 95%;
-
+    cursor: pointer;
 }
 
 .modelo-imagem {
@@ -58,12 +58,18 @@
     max-width: 9em;
     height: 9em;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
-.modelo-imagem:hover {
-    transform: scale(1.1);
+.card-modelo:hover {
+    background-color: #eee;
 }
+
+.card-modelo:hover .modelo-imagem {
+    transform: scale(1.2);
+
+}
+
 
 .modelo-imagem:active {
     border-radius: 10px;
