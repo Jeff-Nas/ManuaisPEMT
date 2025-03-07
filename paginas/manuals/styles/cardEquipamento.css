@@ -1,14 +1,14 @@
 /* configuração iphone 12 pro*/
 
-.main{
-   /* background-color: var(--branco);
+.main {
+    /* background-color: var(--branco);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);*/
     margin: 0.2em;
-    padding: 0.2em;  
+    padding: 0.2em;
 }
 
 
-.fabricante{
+.fabricante {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,7 +17,7 @@
 }
 
 
-.fabricante__botao{
+.fabricante__botao {
     padding: 0.4em 0.4em;
     background-color: var(--laranja);
     color: var(--branco);
@@ -31,7 +31,7 @@
     box-shadow: 2px 2px 2px rgba(15, 15, 15, 0.463);
 }
 
-.container-card{
+.container-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 6px;
@@ -39,7 +39,7 @@
     align-items: center;
 }
 
-.card-modelo{
+.card-modelo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,9 +49,11 @@
     border-radius: 0.5em;
     width: 80%;
     border-bottom: 4px groove var(--laranja);
-        
+    opacity: 95%;
+
 }
-.modelo-imagem{
+
+.modelo-imagem {
     display: block;
     max-width: 9em;
     height: 9em;
@@ -59,47 +61,51 @@
     transition: all 0.3s ease;
 }
 
-.modelo-imagem:hover{
+.modelo-imagem:hover {
     transform: scale(1.1);
 }
 
-.modelo-imagem:active{
+.modelo-imagem:active {
     border-radius: 10px;
     transform: scale(1.02);
 }
 
-.modelo-link:active{
+.modelo-link:active {
     background-color: transparent;
     outline: none;
 }
 
-a { 
+a {
     color: currentColor;
 }
 
-.activ{
+.activ {
     box-shadow: 2px 2px 2px rgba(9, 9, 9, 0.463);
     padding: 0.8em 0.5em;
     transition: padding 0.5s ease-in-out;
 }
 
 /* ----------------------cores de fundo dos botões ------------ */
-.jlg { 
+.jlg {
     background-color: var(--laranja);
     transition: background-color 0.3s ease-in-out;
 }
+
 .genie {
     background-color: var(--azul);
     transition: background-color 0.3s ease-in-out;
 }
+
 .skj {
     background-color: var(--vermelho);
     transition: background-color 0.3s ease-in-out;
 }
+
 .haulotte {
     background-color: var(--amarelo);
     transition: background-color 0.3s ease-in-out;
 }
+
 .dingli {
     background-color: var(--laranja-dingli);
     transition: background-color 0.3s ease-in-out;
@@ -109,15 +115,19 @@ a {
 .jlg-card {
     border-bottom: 4px groove var(--laranja);
 }
+
 .genie-card {
     border-bottom: 4px groove var(--azul);
 }
+
 .sjk-card {
     border-bottom: 4px groove var(--vermelho);
 }
+
 .haulotte-card {
     border-bottom: 4px groove var(--amarelo);
 }
+
 .dingli-card {
     border-bottom: 4px groove var(--laranja-dingli);
 }
