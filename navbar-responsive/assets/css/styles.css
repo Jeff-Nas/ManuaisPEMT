@@ -10,18 +10,8 @@
   --white-color: #fff;
   --body-color: hsl(220, 100%, 97%);
 
-  --dark-blue: #262D3E;
-  /* Azul Escuro */
-  /* --medium-blue: #333F56; */
-  --medium-blue: #1b1b1cfe;
-  /* Azul Médio */
-  --slate-blue: #4A5875;
-  /* Azul Ardósia */
-  --soft-gray: #A0ADC1;
-  /* Cinza Suave */
-  --light-gray: #D1D6DE;
-  /* Cinza Claro */
-  --orange-logo: #e5b58e;
+
+  --orange-logo: #ec771a;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -77,11 +67,11 @@ a {
 
 /*=============== HEADER ===============*/
 .header {
-  position: fixed;
+  /* position: sticky; */
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--medium-blue);
+  background-color: var(--white-color);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
 }
@@ -94,7 +84,7 @@ a {
 .nav__logo,
 .nav__burger,
 .nav__close {
-  color: var(--white-color);
+  color: var(--black-color);
 }
 
 .nav__data {
@@ -173,7 +163,7 @@ a {
   }
 
   .nav__list {
-    background-color: var(--medium-blue);
+    background-color: var(--white-color);
     padding-top: 1rem;
     margin-left: -1em;
   }
@@ -190,7 +180,7 @@ a {
 
 .nav__link {
   color: var(--orange-logo);
-  background-color: var(--medium-blue);
+  background-color: var(--white-color);
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
   display: flex;
