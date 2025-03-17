@@ -1,6 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
-
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -9,31 +6,21 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --white-color: #fff;
   --body-color: hsl(220, 100%, 97%);
-
-
+  --grey-color: rgb(250, 254, 255);
+  --black-color: black;
   --orange-logo: #ec771a;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   /* --body-font: "Montserrat", sans-serif; */
   --body-font: 'Courier New', Courier, monospace;
-  --normal-font-size: .938rem;
 
-  /*========== Font weight ==========*/
-  --font-regular: 400;
-  --font-semi-bold: 600;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*========== Responsive typography ==========*/
-@media screen and (min-width: 1024px) {
-  :root {
-    --normal-font-size: 1rem;
-  }
-}
 
 /*=============== BASE ===============*/
 * {
@@ -42,11 +29,7 @@
   margin: 0;
 }
 
-body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-}
+
 
 
 ul {
@@ -115,7 +98,7 @@ a {
 }
 
 .nav__link {
-  color: var(--orange-logo);
+  color: var(--black-color);
 }
 
 .nav__burger,
@@ -150,6 +133,8 @@ a {
     pointer-events: none;
     opacity: 0;
     transition: top .4s, opacity .3s;
+    z-index: 1;
+    /* background-color: var(--grey-color); */
   }
 
   .nav__toggle {
@@ -163,7 +148,7 @@ a {
   }
 
   .nav__list {
-    background-color: var(--white-color);
+    background-color: var(--grey-color);
     padding-top: 1rem;
     margin-left: -1em;
   }
@@ -174,13 +159,16 @@ a {
     position: absolute;
     left: 0;
     margin-left: -2em;
+  }
 
+  .nav__link {
+    background-color: var(--grey-color);
   }
 }
 
 .nav__link {
-  color: var(--orange-logo);
-  background-color: var(--white-color);
+  color: var(--black-color);
+  /* background-color: var(--white-color); */
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
   display: flex;

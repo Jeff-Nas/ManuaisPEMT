@@ -6,8 +6,6 @@
 @import url("styles/carrossel.css");
 @import url("styles/listaManuais.css");
 @import url("/navbar-responsive/assets/css/styles.css");
-
-
 /* Fonte montserrat*/
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -29,15 +27,16 @@
     --laranja-claro: #eaa785;
     --fundo-laranja: #fbb277;
     --fundo-cinza: #f9f9f9;
-    --fonte-principal: font-family: "Titillium Web", sans-serif;
+    /* fontes*/
+    --body-font: 'Courier New', Courier, monospace;
 }
 
 
 body {
     height: 100vh;
-    /* background-color: var(--branco); */
-    font: var(--fonte-principal);
-
+    font: var(--body-font);
+    font-family: var(--body-font);
+    background-color: var(--body-color);
 }
 
 .logo-sp {
@@ -45,7 +44,14 @@ body {
     width: auto;
 }
 
-.titulos {
+.campoTexto .titulo {
     text-align: center;
-    margin-bottom: 1em;
+    margin: 2em 0 2em 0;
+    font-family: var(--body-font);
+    font-weight: 600 !important;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 600;
 }

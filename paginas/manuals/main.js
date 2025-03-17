@@ -22,24 +22,20 @@ jlgBt.addEventListener('click', () => {
     jlgBt.classList.add('activ')
 
 })
-
 skjBt.addEventListener('click', () => {
     alterarConteudo('skj')
     skjBt.classList.add('activ')
 })
-
 genieBt.addEventListener('click', () => {
     alterarConteudo('genie')
     genieBt.classList.add('activ')
 
 })
-
 haulotteBt.addEventListener('click', () => {
     alterarConteudo('haulotte')
     haulotteBt.classList.add('activ')
 
 })
-
 dingliBt.addEventListener('click', () => {
     alterarConteudo('dingli')
     dingliBt.classList.add('activ')
@@ -51,19 +47,9 @@ dingliBt.addEventListener('click', () => {
 
 function alterarConteudo(conteudo) {
     listaBotoes.forEach(botao => {
-        console.log(conteudo)
         botao.classList.remove('activ')
-        botao.classList.remove('haulotte') //botão deu bug no tamplete string não remove a classe
-        botao.classList.remove('jlg', 'genie', 'skj', 'haulotte', 'dingli')
-        icon.setAttribute('src', `assets/icon-${conteudo}.png`)
         botao.classList.add(`${conteudo}`)
-
-    })
-
-    listaCards.forEach(card => {
-        //card.classList.remove('haulotte-card')
-        card.classList.remove('jlg-card', 'genie-card', 'skj-card', 'haulotte-card', 'dingli-card')
-        card.classList.add(`${conteudo}-card`)
+        icon.setAttribute('src', `assets/icon-${conteudo}.png`)
     })
 
 }

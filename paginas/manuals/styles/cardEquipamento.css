@@ -37,6 +37,7 @@
     gap: 6px;
     justify-items: center;
     align-items: center;
+    z-index: 0;
 }
 
 .card-modelo {
@@ -91,52 +92,7 @@ a {
     transition: padding 0.5s ease-in-out;
 }
 
-/* ----------------------cores de fundo dos botões ------------ */
-.jlg {
-    background-color: var(--laranja);
-    transition: background-color 0.3s ease-in-out;
-}
 
-.genie {
-    background-color: var(--azul);
-    transition: background-color 0.3s ease-in-out;
-}
-
-.skj {
-    background-color: var(--vermelho);
-    transition: background-color 0.3s ease-in-out;
-}
-
-.haulotte {
-    background-color: var(--amarelo);
-    transition: background-color 0.3s ease-in-out;
-}
-
-.dingli {
-    background-color: var(--laranja-dingli);
-    transition: background-color 0.3s ease-in-out;
-}
-
-/* ----------------------cor de borda do card ------------ */
-.jlg-card {
-    border-bottom: 4px groove var(--laranja);
-}
-
-.genie-card {
-    border-bottom: 4px groove var(--azul);
-}
-
-.sjk-card {
-    border-bottom: 4px groove var(--vermelho);
-}
-
-.haulotte-card {
-    border-bottom: 4px groove var(--amarelo);
-}
-
-.dingli-card {
-    border-bottom: 4px groove var(--laranja-dingli);
-}
 
 /* -----------------configuração tablet-----------------------*/
 
