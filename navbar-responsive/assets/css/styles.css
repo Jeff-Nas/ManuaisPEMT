@@ -43,7 +43,7 @@ a {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
+.parent {
   max-width: 1120px;
   margin-inline: 1.5rem;
 }
@@ -118,7 +118,7 @@ a {
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {
-  .container {
+  .parent {
     padding: 2em 0 2em 0;
   }
 
@@ -267,7 +267,7 @@ a {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
-  .container {
+  .parent {
     margin-inline: 1rem;
     display: flex;
     justify-content: space-between;
@@ -285,7 +285,7 @@ a {
 
 /* For large devices */
 @media screen and (min-width: 1118px) {
-  .container {
+  .parent {
     margin-inline: auto;
   }
 
