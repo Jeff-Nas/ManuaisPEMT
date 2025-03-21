@@ -17,16 +17,11 @@
 
 *:root {
     /* PALETA DE CORES */
-
     --branco: #ffffff;
-    --laranja: #ff5405;
-    --azul: #0086d0;
-    --vermelho: #ff3632;
-    --amarelo: #f9ae00;
-    --laranja-dingli: #fc6621;
-    --laranja-claro: #eaa785;
-    --fundo-laranja: #fbb277;
-    --fundo-cinza: #f9f9f9;
+    --dark-blue: #295e77;
+    --light-blue: #77bedf;
+
+
     /* fontes*/
     --body-font: 'Courier New', Courier, monospace;
 }
@@ -42,16 +37,4 @@ body {
 .logo-sp {
     height: 100px;
     width: auto;
-}
-
-.campoTexto .titulo {
-    text-align: center;
-    margin: 2em 0 2em 0;
-    font-family: var(--body-font);
-    font-weight: 600 !important;
-}
-
-p {
-    font-size: 16px;
-    font-weight: 600;
 }

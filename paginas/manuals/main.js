@@ -3,7 +3,7 @@
 const listaMenu = document.querySelector('.lista-menu');
 const botaoMenu = document.querySelector('#menuToggle')
 const menu = document.querySelector('.container_menu');
-const listaBotoes = document.querySelectorAll('.fabricante__botao')
+const listaBotoes = document.querySelectorAll('.builder-button')
 const icon = document.getElementById('icon')
 const listaCards = document.querySelectorAll('.card-modelo')
 

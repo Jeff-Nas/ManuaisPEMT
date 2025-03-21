@@ -1,33 +1,51 @@
 /* configuração iphone 12 pro*/
 
 .main {
-    /* background-color: var(--branco);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);*/
     margin: 0.2em;
     padding: 0.2em;
 }
 
-
-.fabricante {
+.campoTexto {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    margin: 3.2em 0 0 0;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+    font-family: var(--body-font);
+    font-weight: 600 !important;
+}
+
+.campoTexto-img {
+    height: 50px;
+    width: auto;
+    opacity: 0.5;
+}
+
+.builder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     list-style-type: none;
     margin-bottom: 1em;
 }
 
 
-.fabricante__botao {
+.builder-button {
     padding: 0.4em 0.4em;
-    background-color: var(--laranja);
+    background-color: var(--dark-blue);
     color: var(--branco);
-    font-family: "Titillium Web", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 0.5em;
     width: 3.3em;
     text-align: center;
-    margin: 0.1em;
+    /* margin: 0.1em; */
     box-shadow: 2px 2px 2px rgba(15, 15, 15, 0.463);
 }
 
@@ -48,7 +66,8 @@
     background-color: var(--branco);
     box-shadow: 0px 0px 6px rgba(9, 9, 9, 0.463);
     border-radius: 0.5em;
-    width: 80%;
+    height: 11em;
+    width: 90%;
     border-bottom: 4px groove var(--laranja);
     opacity: 95%;
     cursor: pointer;
@@ -57,7 +76,7 @@
 .modelo-imagem {
     display: block;
     max-width: 9em;
-    height: 9em;
+    height: 7em;
     border-radius: 10px;
     transition: all 0.5s ease;
 }
@@ -88,7 +107,7 @@ a {
 
 .activ {
     box-shadow: 2px 2px 2px rgba(9, 9, 9, 0.463);
-    padding: 0.8em 0.5em;
+    background-color: var(--light-blue);
     transition: padding 0.5s ease-in-out;
 }
 
