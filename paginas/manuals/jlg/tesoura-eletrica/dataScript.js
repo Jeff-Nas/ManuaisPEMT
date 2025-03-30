@@ -22,14 +22,13 @@ document.querySelectorAll(".card-item").forEach(item => {
     item.addEventListener('click', () => {
         const key = item.getAttribute("data-key")
         updateManuals(key)
-        console.log("Fui clicado")
     })
 })
 
 
 
 function updateManuals(key) {
-    const list = document.getElementById('manuals-container')
+    const list = document.querySelector('.manuais-lista')
     list.innerHTML = ""
 
     if (manualData[key]) {
@@ -44,6 +43,7 @@ function updateManuals(key) {
 
             li.appendChild(a)
             list.appendChild(li)
+
         })
     }
 }
