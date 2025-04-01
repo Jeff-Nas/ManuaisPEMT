@@ -70,6 +70,10 @@
     cursor: pointer;
 }
 
+.modelo-titulo {
+    margin-top: 0.5em;
+}
+
 .modelo-imagem {
     display: block;
     max-width: 9em;

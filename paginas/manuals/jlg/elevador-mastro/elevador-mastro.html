@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--LIKING SWIPPER JS CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="/paginas/manuals/style.css" />
+  <title>Elevador Mastro</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav parent">
+      <div class="nav__data">
+        <a href="/index.html" class="nav__logo">
+          <img src="/assets/SemPane-logo-curto-png.png" class="logo-img" alt="Logo marca SemPane">
+        </a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="/paginas/manuals/manuals.html" class="nav__link">Manuais</a></li>
+          <li><a href="/paginas/coming-soon/build.html" class="nav__link">Treinamentos</a></li>
+          <li><a href="/paginas/coming-soon/build.html" class="nav__link">Tabela de torque</a></li>
+          <li><a href="/paginas/coming-soon/build.html" class="nav__link">Sobre nós</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="titulo-principal">
+    <h1>Elevador Mastro</h1>
+  </div>
+
+  <!--S L I D E R-->
+
+  <div class="container swiper">
+    <div class="slider-wrapper">
+      <div class="card-list swiper-wrapper">
+        <figure class="card-item swiper-slide" data-key="toucan">
+          <img src="/paginas/manuals/assets/boom-eletrico/toucan.png" alt="Modelo 6RS" class="card-image" />
+          <!--mesmo conteúdo da 10rs-->
+          <legend class="card-name">Toucan</legend>
+        </figure>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <!-- <div class="swiper-button-prev"></div> 
+            <div class="swiper-button-next"></div>-->
+    </div>
+  </div>
+
+  <!--LISTA DE MANUAIS-->
+
+  <div class="manuais-container" id="manuals-container">
+    <ul class="manuais-lista">
+      <li class="manuais-item">
+        <a class="manuais-link"
+          href="/manuais/jlg/elevador-mastro/parts/TOUCAN E26MJ E18MJ - PEÇAS - PN 31210008 - 07-30-2009.pdf"><strong>TOUCAN
+            E26MJ E18MJ</strong>
+          - PEÇAS - PN 31210008 - 07-30-2009</a>
+      </li>
+      <li class="manuais-item">
+        <a class="manuais-link"
+          href="/manuais/jlg/elevador-mastro/service/TOUCAN E26MJ E18MJ - Serviço - PN 31210019 - 07-07-2006 - Inglês.pdf"><strong>TOUCAN
+            E26MJ E18MJ</strong>
+          - SERVIÇO - PN 31210019 - 07-07-2006 - Inglês
+        </a>
+      </li>
+      <li class="manuais-item">
+        <a class="manuais-link"
+          href="/manuais/jlg/elevador-mastro/parts/TOUCAN T10 E T26 - PEÇAS - PN 31210091 - 29-01-19 - ANTERIOR A NO. SÉRIE A300037517 E ENTRE A300090000 A A300091266.pdf"><strong>TOUCAN
+            T10 E T26</strong>
+          - PEÇAS - PN 31210091 - 29-01-19 - ANTERIOR A NO. SÉRIE A300037517 E ENTRE A300090000 A A300091266
+        </a>
+      </li>
+      <li class="manuais-item">
+        <a class="manuais-link"
+          href="/manuais/jlg/elevador-mastro/service/TOUCAN T10E, T26E - SERVIÇO - PN 31210090 - 21-06-19 - INGLÊS.pdf"><strong>TOUCAN
+            T10 E T26</strong>
+          - SERVIÇO - PN 31210090 - 21-06-19 - INGLÊS
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!--LINK SWIPPER JS SCRIPT-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/scripts/swiper.js"></script>
+  <script src="/navbar-responsive/assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="dataScript.js"></script>
+</body>
+
+</html>
