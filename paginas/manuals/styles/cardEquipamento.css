@@ -66,7 +66,6 @@
     border-radius: 0.5em;
     height: 11em;
     width: 90%;
-    border-bottom: 4px groove var(--laranja);
     opacity: 95%;
     cursor: pointer;
 }
@@ -77,6 +76,7 @@
     height: 7em;
     border-radius: 10px;
     transition: all 0.5s ease;
+    margin-top: .5em;
 }
 
 .card-modelo:hover {
