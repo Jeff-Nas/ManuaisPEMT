@@ -18,7 +18,7 @@ const swiper = new Swiper('.slider-wrapper', {
     prevEl: '.swiper-button-prev',
   },
 
-  slidesPerView: 3,
+  slidesPerView: 2.5,
   //responsividade a definir: ver documentação https://swiperjs.com/swiper-api#initialize-swiper
   breakpoints: {
 

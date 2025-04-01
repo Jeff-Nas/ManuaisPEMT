@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/industry-test');
-/* Fonte montserrat*/
+/* Fontes google*/
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* @import url("styles/cabeçalho.css"); */
 @import url("styles/cardEquipamento.css");
@@ -24,15 +24,16 @@
 
     /* fontes*/
     --body-font: 'Courier New', Courier, monospace;
+    --titulo-principal: "DM Sans", sans-serif;
 }
 
 
 body {
     height: 100vh;
-    font: var(--body-font);
     font-family: var(--body-font);
     background-color: var(--body-color);
 }
+
 
 .logo-sp {
     height: 100px;
