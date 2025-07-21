@@ -1,13 +1,15 @@
 @import url('https://fonts.cdnfonts.com/css/industry-test');
 /* Fontes google*/
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-/* @import url("styles/cabeçalho.css"); */
-@import url("styles/cardEquipamento.css");
-@import url("styles/carrossel.css");
-@import url("styles/listaManuais.css");
-@import url("/navbar-responsive/assets/css/styles.css");
-/* Fonte montserrat*/
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url("styles/cabeçalho.css"); */
+@import url("/styles/cardEquipamento.css");
+@import url("/styles/carrossel.css");
+@import url("/styles/listaManuais.css");
+
+
+@import url("/navbar-responsive/assets/css/styles.css");
+
 
 
 * {
