@@ -43,8 +43,6 @@ dingliBt.addEventListener('click', () => {
 })
 
 
-
-
 function alterarConteudo(conteudo) {
     listaBotoes.forEach(botao => {
         botao.classList.remove('activ')
@@ -53,7 +51,3 @@ function alterarConteudo(conteudo) {
     })
 
 }
-
-
-
-
