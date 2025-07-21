@@ -32,7 +32,9 @@
 }
 
 .clicked {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-color: #faebd7;
+
 }
 
 .card-image {

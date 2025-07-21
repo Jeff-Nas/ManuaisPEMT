@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 btMenu.addEventListener('click', () => {
                     const isOpen = menu.classList.toggle("open");
 
+                    document.body.classList.toggle('no-scroll', isOpen)
+
                     icon.classList.add("animate");
 
                     setTimeout(() => {

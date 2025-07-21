@@ -1,5 +1,5 @@
 /* Fontes google*/
-
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
 @import url('https://fonts.cdnfonts.com/css/industry-test');
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -31,13 +31,24 @@
     /* fontes*/
     --body-font: 'Courier New', Courier, monospace;
     --titulo-principal: "DM Sans", sans-serif;
+
+    --gray-100: #F9FAFB;
+    --gray-200: #F3F4F6;
+    --gray-300: #E5E7EB;
+    --gray-400: #D1D5DB;
+    --gray-500: #9CA3AF;
+    --gray-600: #6B7280;
+    --gray-700: #4B5563;
+    --gray-800: #374151;
+    --gray-900: #1F2937;
+    --gray-950: #111827;
 }
 
 
 body {
     height: 100vh;
     font-family: var(--body-font);
-    background-color: var(--body-color);
+    background-color: var(--gray-200);
 }
 
 
