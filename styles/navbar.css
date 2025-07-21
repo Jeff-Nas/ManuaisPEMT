@@ -52,6 +52,12 @@ header .nav-bar {
     font-weight: 400;
 }
 
+.mobile-menu {
+    position: fixed;
+    top: 10;
+    left: -100%;
+}
+
 .mobile-menu-icon {
     display: none;
 }

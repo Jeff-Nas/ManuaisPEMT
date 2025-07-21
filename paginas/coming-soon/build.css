@@ -41,30 +41,13 @@ p {
     border-radius: 1em;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        background-color: rgba(24, 23, 23, 0.556);
-    }
-
-    .cabecalho {
-        background-color: #333;
-    }
-
+@media screen and (max-width: 760px) {
     .banner {
-        background-color: rgba(24, 23, 23, 0.556);
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        background-color: white;
+        height: 10rem;
     }
 
-    .cabecalho {
-        background-color: white;
-    }
-
-    .banner {
-        background-color: #efb5a0;
+    .banner img {
+        width: 100%;
+        object-fit: cover;
     }
 }

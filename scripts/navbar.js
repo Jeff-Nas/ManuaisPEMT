@@ -1,17 +1,36 @@
-const menu = document.querySelector(".mobile-menu")
-const btMenu = document.getElementById('btnMenu')
-const icon = document.querySelector('.btnIcon')
+document.addEventListener('DOMContentLoaded', () => {
+    const navbarContainer = document.getElementById('navbar-container');
 
-btMenu.addEventListener('click', () => {
-    const isOpen = menu.classList.toggle("open")
+    fetch('/responsive-navbar/navbar.html')
+        .then(res => res.text())
+        .then(html => {
+            navbarContainer.innerHTML = html;
 
-    icon.classList.add("animate")
+            // ✅ Agora que o HTML foi inserido, podemos acessar os elementos
+            const btMenu = document.getElementById('btnMenu');
+            const menu = document.querySelector(".mobile-menu");
+            const icon = document.querySelector('.btnIcon');
 
-    setTimeout(() => {
-        icon.src = isOpen
-            ? "assets/svg/close_white_36dp.svg"
-            : "assets/svg/menu_white_36dp.svg"
-        icon.classList.remove("animate")
-    }, 150)
-})
+            if (btMenu && menu && icon) {
+                btMenu.addEventListener('click', () => {
+                    const isOpen = menu.classList.toggle("open");
+
+                    icon.classList.add("animate");
+
+                    setTimeout(() => {
+                        icon.src = isOpen
+                            ? "/responsive-navbar/assets/svg/close_white_36dp.svg"
+                            : "/responsive-navbar/assets/svg/menu_white_36dp.svg";
+                        icon.classList.remove("animate");
+                    }, 150);
+                });
+            } else {
+                console.warn("⚠️ Elementos da navbar não foram encontrados.");
+            }
+        })
+        .catch(error => {
+            console.error("Erro ao carregar a navbar:", error);
+        });
+});
+
 
