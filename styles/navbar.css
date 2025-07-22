@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Outfit:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton+SC&family=Outfit:wght@100..900&display=swap');
+
 
 * {
     margin: 0;
@@ -9,12 +13,8 @@
 
 .nav-header {
     background-color: var(--gray-950);
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 5px #464646;
     color: white;
-}
-
-header .nav-bar {
-    font-family: "Inter Tight", sans-serif;
 }
 
 .nav-bar {
@@ -35,6 +35,10 @@ header .nav-bar {
     font-family: "Anton SC", sans-serif;
 }
 
+.nav-logo-text span {
+    color: rgb(250, 196, 125);
+}
+
 
 .nav-list {
     display: flex;
@@ -45,6 +49,8 @@ header .nav-bar {
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
 }
 
 .nav-item {
@@ -129,6 +135,7 @@ header .nav-bar {
         gap: 1.5rem;
         padding-left: 2rem;
         padding-bottom: 1rem;
+        font-family: "Outfit", sans-serif;
     }
 
     .mobile-menu .nav-item {

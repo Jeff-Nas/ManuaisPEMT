@@ -19,6 +19,8 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 *:root {
@@ -47,9 +49,10 @@
 
 body {
     height: 100vh;
-    font-family: var(--body-font);
     background-color: var(--gray-200);
+    font-family: "Outfit", sans-serif;
 }
+
 
 
 .logo-sp {

@@ -24,7 +24,7 @@
   background-color: rgb(255, 255, 255, 0.8);
   opacity: 0.9;
   border-radius: 10px;
-  box-shadow: 0px 0px 6px rgba(9, 9, 9, 0.463);
+  box-shadow: 1px 1px 5px rgba(9, 9, 9, 0.463);
   padding: .5em;
   margin: 1em;
   margin-bottom: 5px;
@@ -32,7 +32,6 @@
 }
 
 .clicked {
-  /* background-color: antiquewhite; */
   background-color: #faebd7;
 
 }
@@ -43,12 +42,11 @@
 }
 
 .card-name {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(0, 0, 0, 0.8);
   font-size: 16px;
   font-weight: 500;
   box-sizing: border-box;
   text-align: center;
+  color: var(--gray-800);
 }
 
 .slider-wrapper {

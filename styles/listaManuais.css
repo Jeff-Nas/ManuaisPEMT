@@ -10,18 +10,23 @@
     gap: 1em;
 }
 
+.titulo-principal {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    color: var(--gray-800);
+}
+
 .manuais-item {
     background-color: var(--branco);
     padding: 1em;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(15, 10, 10, 0.463);
+    box-shadow: 1px 1px 3px rgba(9, 9, 9, 0.463);
     text-align: center;
     opacity: 0.9;
     border: 1px solid var(--gray-500);
 }
 
-a {
+.manuais-link {
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.1em;
+    font-weight: 300;
 }

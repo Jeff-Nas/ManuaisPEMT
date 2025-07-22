@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(html => {
             navbarContainer.innerHTML = html;
 
-            // ✅ Agora que o HTML foi inserido, podemos acessar os elementos
             const btMenu = document.getElementById('btnMenu');
             const menu = document.querySelector(".mobile-menu");
             const icon = document.querySelector('.btnIcon');
