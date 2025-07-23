@@ -26,13 +26,6 @@
 *:root {
     /* PALETA DE CORES */
     --branco: #ffffff;
-    --dark-blue: #295e77;
-    --light-blue: #77bedf;
-
-
-    /* fontes*/
-    --body-font: 'Courier New', Courier, monospace;
-    --titulo-principal: "DM Sans", sans-serif;
 
     --gray-100: #F9FAFB;
     --gray-200: #F3F4F6;
@@ -44,6 +37,8 @@
     --gray-800: #374151;
     --gray-900: #1F2937;
     --gray-950: #111827;
+
+
 }
 
 
