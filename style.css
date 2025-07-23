@@ -10,6 +10,7 @@
 @import url("/styles/carrossel.css");
 @import url("/styles/listaManuais.css");
 @import url("/styles/navbar.css");
+@import url("/styles/hero.css");
 
 
 @import url("/navbar-responsive/assets/css/styles.css");
@@ -38,6 +39,10 @@
     --gray-900: #1F2937;
     --gray-950: #111827;
 
+
+    --orange-300: #f6d4a6;
+    --orange-400: #fac47d;
+    --orange-600: #daa748;
 
 }
 

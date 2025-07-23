@@ -36,7 +36,7 @@
 }
 
 .nav-logo-text span {
-    color: rgb(250, 196, 125);
+    color: var(--orange-400);
 }
 
 
