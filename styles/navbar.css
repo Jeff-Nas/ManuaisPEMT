@@ -59,6 +59,7 @@
 
 .nav-item:hover {
     cursor: pointer;
+    color: var(--orange-400);
 }
 
 .nav-link {
