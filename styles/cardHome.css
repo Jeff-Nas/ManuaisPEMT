@@ -1,15 +1,21 @@
 .cards-container {
     background-color: white;
+    padding: 1rem;
 }
+
 
 .card-wraper {
-    width: 22rem;
-    height: auto;
+    width: 18rem;
+    height: 24rem;
     border-radius: 20px;
-    background-color: var(--gray-200);
+    background-color: var(--gray-300);
+    margin: 1rem 0;
+    overflow: hidden;
+    object-fit: cover;
 }
 
-.cards-container img {
+.card-wraper img {
     width: 100%;
-    background: transparent;
+    height: auto;
+    background: transparent
 }
