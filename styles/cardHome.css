@@ -1,0 +1,15 @@
+.cards-container {
+    background-color: white;
+}
+
+.card-wraper {
+    width: 22rem;
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--gray-200);
+}
+
+.cards-container img {
+    width: 100%;
+    background: transparent;
+}
