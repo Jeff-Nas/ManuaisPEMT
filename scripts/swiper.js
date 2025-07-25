@@ -24,14 +24,3 @@ const swiper = new Swiper('.slider-wrapper', {
 
   }
 });
-
-//OCULTAR SWIPPER
-
-document.addEventListener('DOMContentLoaded', function () {
-  const menuButton = document.querySelector('.nav__toggle')
-  const swiperContainer = document.querySelector('.slider-wrapper')
-
-  menuButton.addEventListener('click', function () {
-    swiperContainer.classList.toggle('active')
-  })
-})
