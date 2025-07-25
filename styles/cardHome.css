@@ -1,4 +1,4 @@
-.cards-container {
+/* .cards-container {
     background-color: white;
     padding: 1rem;
 }
@@ -18,4 +18,50 @@
     width: 100%;
     height: auto;
     background: transparent
+} */
+
+
+
+/* Container geral */
+.cards-container {
+    padding: 1rem;
+}
+
+/* Swiper container */
+.swiper {
+    width: 100%;
+    max-width: 18rem;
+    height: 24rem;
+}
+
+/* Slide individual */
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    /* background-color: transparent; */
+    /* Remove cores de fundo */
+}
+
+/* Card wrapper estilizado */
+.card-wraper {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: var(--gray-300);
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagem do card */
+.card-wraper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
