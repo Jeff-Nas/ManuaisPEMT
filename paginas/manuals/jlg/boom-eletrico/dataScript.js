@@ -1,3 +1,4 @@
+
 const manualData = {
 
     "E300-E300AJ": [
@@ -20,10 +21,7 @@ const manualData = {
         { text: "SERVIÇO - E600, E600J, E600JP, M600, M600J, M600JP - PN 3121711 - 07-01-2019 - INGLÊS", link: "/manuais/jlg/boom-eletrico/E600-M600JP/E600, E600J, E600JP, M600, M600J, M600JP - SERVIÇO - PN 3121711 - 07-01-2019 - INGLÊS.pdf" },
         { text: "E600, E600J, E600JP, M600, M600J, M600JP - SERVIÇO - PN 3123347 - 11-02-2008 - PORTUGUÊS", link: "/manuais/jlg/boom-eletrico/E600-M600JP/E600, E600J, E600JP, M600, M600J, M600JP - SERVIÇO - PN 3123347 - 11-02-2008 - PORTUGUÊS.pdf" }
     ]
-
-
 }
-
 
 document.querySelectorAll(".card-item").forEach(item => {
     item.addEventListener('click', () => {
@@ -32,11 +30,13 @@ document.querySelectorAll(".card-item").forEach(item => {
     })
 })
 
-
-
 function updateManuals(key) {
     const list = document.querySelector('.manuais-lista')
+
     list.innerHTML = ""
+
+    list.classList.remove('fade-in-up')
+    void list.offsetWidth
 
     if (manualData[key]) {
         manualData[key].forEach(obj => {
@@ -51,6 +51,8 @@ function updateManuals(key) {
             li.appendChild(a)
             list.appendChild(li)
 
+            list.classList.add('fade-in-up')
         })
+
     }
 }

@@ -22,6 +22,7 @@ const manualData = {
 
 }
 
+//>>>ESTRUTURA QUE SE REPETE
 
 document.querySelectorAll(".card-item").forEach(item => {
     item.addEventListener('click', () => {

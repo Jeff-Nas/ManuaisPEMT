@@ -1,53 +1,27 @@
 
+export function updateManuals(key) {
+    const list = document.querySelector('.manuais-lista')
 
-// const listaMenu = document.querySelector('.lista-menu');
-// const botaoMenu = document.querySelector('#menuToggle')
-// // const menu = document.querySelector('.container_menu');
-// const listaBotoes = document.querySelectorAll('.builder-button')
-// // const icon = document.getElementById('icon')
-// const listaCards = document.querySelectorAll('.card-modelo')
+    list.innerHTML = ""
 
+    list.classList.remove('fade-in-up')
+    void list.offsetWidth
 
+    if (manualData[key]) {
+        manualData[key].forEach(obj => {
+            const li = document.createElement("li")
+            li.classList.add("manuais-item")
 
-// //--- botões-------------------
-// const jlgBt = listaBotoes[0]
-// const genieBt = listaBotoes[1]
-// const skjBt = listaBotoes[2]
-// const haulotteBt = listaBotoes[3]
-// const dingliBt = listaBotoes[4]
-// //------------------------------
+            const a = document.createElement("a")
+            a.classList.add("manuais-link")
+            a.href = obj.link
+            a.innerHTML = `<strong>${key}</strong> - ${obj.text}`
 
-// jlgBt.addEventListener('click', () => {
-//     alterarConteudo('jlg')
-//     jlgBt.classList.add('activ')
+            li.appendChild(a)
+            list.appendChild(li)
 
-// })
-// skjBt.addEventListener('click', () => {
-//     alterarConteudo('skj')
-//     skjBt.classList.add('activ')
-// })
-// genieBt.addEventListener('click', () => {
-//     alterarConteudo('genie')
-//     genieBt.classList.add('activ')
+            list.classList.add('fade-in-up')
+        })
 
-// })
-// haulotteBt.addEventListener('click', () => {
-//     alterarConteudo('haulotte')
-//     haulotteBt.classList.add('activ')
-
-// })
-// dingliBt.addEventListener('click', () => {
-//     alterarConteudo('dingli')
-//     dingliBt.classList.add('activ')
-
-// })
-
-
-// function alterarConteudo(conteudo) {
-//     listaBotoes.forEach(botao => {
-//         botao.classList.remove('activ')
-//         botao.classList.add(`${conteudo}`)
-//         icon.setAttribute('src', `assets/icon-${conteudo}.png`)
-//     })
-
-// }
+    }
+}

@@ -15,13 +15,14 @@
 /* ---end of animation---*/
 
 .titulo-principal {
-  margin-top: 4.5em;
+  margin-top: 1rem;
   font-weight: 200;
   text-align: center;
 }
 
 .swiper {
-  height: 40vh;
+  /* height: 38vh; */
+  height: 35vh;
 }
 
 .card-list {
