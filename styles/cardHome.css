@@ -9,10 +9,27 @@ html {
     background-color: var(--gray-400);
 }
 
+
 .cards-container h2 {
     margin-bottom: 2rem;
     color: var(--orange-900);
     font-family: "Anta", Sans-serif;
+}
+
+/* cards animations*/
+.cards-container h2,
+.swiper-fade-wrapper {
+    opacity: 0;
+}
+
+.cards-container.visible h2 {
+    animation: fadeUp 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+.cards-container.visible .swiper-fade-wrapper {
+    animation: fadeUp 0.8s ease-out forwards;
+    animation-delay: 0.7s;
 }
 
 /* Swiper container */
@@ -49,4 +66,16 @@ html {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
