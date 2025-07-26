@@ -22,11 +22,29 @@
     border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(9, 9, 9, 0.463);
     text-align: center;
-    opacity: 0.9;
     border: 1px solid var(--gray-500);
+    opacity: 0.9;
+    /* transform: translateX(30px); */
+    transition: all 1s ease-out;
 }
 
 .manuais-link {
     text-decoration: none;
     font-weight: 300;
+}
+
+/* animation list item*/
+
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

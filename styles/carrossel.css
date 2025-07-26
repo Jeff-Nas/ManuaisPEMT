@@ -2,7 +2,7 @@
 .fade-in {
   opacity: 0;
   transform: translateY(1px);
-  animation: fadeInUp 0.6s ease-out forwards;
+  animation: fadeInUp 0.5s ease-out forwards;
 }
 
 @keyframes fadeInUp {
@@ -11,6 +11,8 @@
     transform: translateY(0);
   }
 }
+
+/* ---end of animation---*/
 
 .titulo-principal {
   margin-top: 4.5em;
