@@ -39,9 +39,9 @@ Os manuais em PDF são armazenados em um bucket da Cloudflare R2 e organizados v
   },
   ...
 ]
+``` 
 
 ## 📷 Capturas de Tela
-Adicione aqui prints da interface do seu site em diferentes dispositivos, como desktop e mobile.
 ![Versão Desktop-(em construção)](./assets/print-desktop.png)
 ![Versão-mobile](./assets/print-mobile.png)
 
